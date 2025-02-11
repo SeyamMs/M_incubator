@@ -3,19 +3,19 @@
         [
             'title' => 'الباحثون والمبتكرون​',
             'image' => 'images/targets-1.jpg',
-            'col_class' => 'lg:col-span-2 md:col-span-3 col-span-6',
+            'col_class' => 'md:col-span-2 sm:col-span-3 col-span-6',
             'wrapper_class' => '',
         ],
         [
             'title' => 'رواد الأعمال​',
             'image' => 'images/targets-2.jpg',
-            'col_class' => 'lg:col-span-2 md:col-span-3 col-span-6',
+            'col_class' => 'md:col-span-2 sm:col-span-3 col-span-6',
             'wrapper_class' => '',
         ],
         [
             'title' => 'المهتمون بقطاع الطاقة​',
             'image' => 'images/targets-3.jpg',
-            'col_class' => 'lg:col-span-2 md:col-span-6 col-span-6',
+            'col_class' => 'md:col-span-2 sm:col-span-3 col-span-6',
             'wrapper_class' => '',
         ],
     ];
@@ -50,7 +50,7 @@
 
                                 <div class="relatve xl:px-6 lg:px-3 md:px-4 md:py-8 sm:px-6 sm:py-10 z-10 px-4 py-8">
                                     <h3
-                                        class="text-white lg:text-[36px] md:text-[32px] sm:text-[30px] text-[26px] leading-[45px] font-medium text-center"
+                                        class="text-white lg:text-[36px] md:text-[18px] sm:text-[24px] text-[26px] font-medium text-center"
                                         :class="{
                                             'motion-preset-fade -motion-translate-y-in-[40px] motion-delay-[{{ $loop->iteration * 800 }}ms]': shown,
                                             'invisible': !shown,
@@ -61,7 +61,7 @@
                                 </div>
 
                                 <div
-                                    class=" size-full absolute z-0 flex"
+                                    class="rounded-3xl size-full absolute z-0 flex overflow-hidden"
                                     :class="{
                                         'motion-preset-fade -motion-translate-y-in-[40px] motion-delay-[{{ $loop->iteration * 600 }}ms]': shown,
                                         'invisible': !shown,
